@@ -1,5 +1,7 @@
 ({
     name: 'main',
     out: '../dist/core.js',
-    include: ['text']
+    _include: ['text'],
+    include: ['myLib', 'myLib2', 'myLib3'],
+    optimize: 'none'
 })
